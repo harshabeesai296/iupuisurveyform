@@ -1,0 +1,27 @@
+<form action="/action_page.php">
+  <label for="Skill1">Skill 1 Rating (out of 10):</label>
+  <input type="range" min="1" max="10" value="0" class="slider" id="myRange" />
+  <br />
+  <br />
+  <label for="Skill2">Skill 2 Rating (out of 10):</label>
+  <input type="range" min="1" max="10" value="0" class="slider" id="myRange" />
+  <br />
+  <br />
+
+  <label for="Skill3">Skill 3 Rating (out of 10):</label>
+  <input type="range" min="1" max="10" value="0" class="slider" id="myRange" />
+  <br />
+  <br />
+
+  <label for="Skill4">Skill 4 Rating (out of 10):</label>
+  <input type="range" min="1" max="10" value="0" class="slider" id="myRange" />
+  <br />
+  <br />
+
+  <label for="Skill5">Skill 5 Rating (out of 10):</label>
+  <input type="range" min="1" max="10" value="0" class="slider" id="myRange" />
+  <br />
+  <br />
+
+  <input type="button" value="Submit" />
+</form>

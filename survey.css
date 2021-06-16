@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Aileron-Black;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Black.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Aileron-Regular;
+  font-weight: bold;
+  src: url("/Users/harshabeesai/Downloads/aileron_0102/Aileron-Regular.otf")
+    format("opentype");
+}
+
+body {
+  background-image: radial-gradient(#42275a, #734b6d);
+  color: white;
+}
+
+p {
+  font-family: Aileron-Regular;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Aileron-Black;
+  font-size: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topimgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1400px;
+  margin-top: 35px;
+  margin-left: 12px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 12px 12px 2px 1px white;
+  border-radius: 10px;
+}
+
+.surveyform {
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.card:hover {
+  box-shadow: 12px 12px 2px 1px #000428;
+}
+
+.set1,
+.set2,
+.set3 {
+  display: grid;
+  grid-template-columns: 500px repeat(5, 160px);
+  grid-template-rows: repeat(6, 50px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-self: center;
+  align-self: center;
+  place-items: center;
+  font-family: Aileron-Regular;
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.faculties {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  width: 1400px;
+  margin-top: 25px;
+}
+
+.fac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 50px 400px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-self: center;
+  align-items: center;
+  place-items: center;
+  font-family: Aileron-Regular;
+  margin-top: 10px;
+}
+
+form {
+  font-family: Aileron-Regular;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #000428;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.rating[p] {
+  font-weight: bold;
+}

@@ -1,0 +1,53 @@
+<div class="set">
+  <p style="display: inline; margin-left: 170px">Big Data Analytics</p>
+  <p style="display: inline">Upto What extent do you agree with Statement 1?</p>
+  <p style="display: inline">Upto What extent do you agree with Statement 2?</p>
+  <p style="display: inline">Upto What extent do you agree with Statement 3?</p>
+  <p style="display: inline">Upto What extent do you agree with Statement 4?</p>
+  <p style="display: inline">Upto What extent do you agree with Statement 5?</p>
+</div>
+
+<div class="set">
+  <p style="display: inline; margin-left: 75px">Strongly Disagree</p>
+  <input type="radio" class="1StrDis" />
+  <input type="radio" class="1Dis" />
+  <input type="radio" class="1Neut" />
+  <input type="radio" class="1Agr" />
+  <input type="radio" class="1StrAgr" />
+</div>
+
+<div class="set">
+  <p style="display: inline; margin-left: 75px">Disagree</p>
+  <input type="radio" class="1StrDis" />
+  <input type="radio" class="1Dis" />
+  <input type="radio" class="1Neut" />
+  <input type="radio" class="1Agr" />
+  <input type="radio" class="1StrAgr" />
+</div>
+
+<div class="set">
+  <p style="display: inline; margin-left: 75px">Neutral</p>
+  <input type="radio" class="1StrDis" />
+  <input type="radio" class="1Dis" />
+  <input type="radio" class="1Neut" />
+  <input type="radio" class="1Agr" />
+  <input type="radio" class="1StrAgr" />
+</div>
+
+<div class="set">
+  <p style="display: inline; margin-left: 75px">Agree</p>
+  <input type="radio" class="1StrDis" />
+  <input type="radio" class="1Dis" />
+  <input type="radio" class="1Neut" />
+  <input type="radio" class="1Agr" />
+  <input type="radio" class="1StrAgr" />
+</div>
+
+<div class="set">
+  <p style="display: inline; margin-left: 75px">Strongly Agree</p>
+  <input type="radio" class="1StrDis" />
+  <input type="radio" class="1Dis" />
+  <input type="radio" class="1Neut" />
+  <input type="radio" class="1Agr" />
+  <input type="radio" class="1StrAgr" />
+</div>
